@@ -46,4 +46,4 @@ password = input("Enter your password: ")
 if len(password) >= 8 and any(char.isdigit() for char in password):
     print("goodjob your password is valid")
 else:
-    print(" ts fryin me son your password is invalid")
+    print(" ts fryin me son your password is invalid")4
