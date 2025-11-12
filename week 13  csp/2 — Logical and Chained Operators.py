@@ -54,9 +54,17 @@ elif score < 60:
 
 # Write an expression that checks if a number is between 50 and 100 (inclusive).
 
+x = int(input("enter a number"))
+print(50 <= x <=100)
 # Write an expression that checks if a number is NOT equal to 0 and greater than 10.
-
+y = int(input("enter number"))
+print(y != 0 and y > 10) 
 # Use chained comparison to check if 3 < 4 < 5.
-
+print(3 < 4 < 5)
 # Challenge: Create a password rule using logical operators:
 
+if len(password) >= 8 and any(char.isdigit() for char in password):
+        print("Password is valid")
+        
+else :
+   print("Password is invalid")
