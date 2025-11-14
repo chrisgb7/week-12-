@@ -19,11 +19,11 @@ print(type(my_list))
 print(my_list[0]) #access first item
 print(my_list[1:4]) #access second item
 print(my_list[0:]) # [1, 2, 3, 4, 5]
-my list.append(6) #add item to end of list
+my_list.append(6) 
 print(my_list) # [1, 2, 3, 4, 5
 my_list.extend([10,11,12,13,14]) 
 #add 500 more numbers to the list
-my.list.extend(range(15,515))
+my_list.extend(range(15,999))
 print(my_list)
 # Examples:
 
