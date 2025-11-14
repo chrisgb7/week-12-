@@ -64,7 +64,7 @@ import random
 random_list = random.sample(range(1, 1000), 100)
 print(random_list)
 print(sorted(random_list))
-soreted_list = sorted(random_list)
+sorted_list = sorted(random_list)
 print(sorted_list)
 #reverse the list
 #rem,ove every third item form the list 
