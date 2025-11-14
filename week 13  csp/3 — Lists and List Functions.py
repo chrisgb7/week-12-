@@ -21,6 +21,10 @@ print(my_list[1:4]) #access second item
 print(my_list[0:]) # [1, 2, 3, 4, 5]
 my list.append(6) #add item to end of list
 print(my_list) # [1, 2, 3, 4, 5
+my_list.extend([10,11,12,13,14]) 
+#add 500 more numbers to the list
+my.list.extend(range(15,515))
+print(my_list)
 # Examples:
 
 my_list = ['apple', 'banana', 'cherry']
