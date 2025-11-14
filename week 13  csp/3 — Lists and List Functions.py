@@ -55,6 +55,24 @@ print(numbers)
 # 2 10
 numbers.insert(2, 101000)
 print (numbers)
+third_list = [7, 8, 9]
+third_list[0]=6
+print(third_list)
+third_list[-1]
+print(third_list)
+import random
+random_list = random.sample(range(1, 1000), 100)
+print(random_list)
+print(sorted(random_list))
+soreted_list = sorted(random_list)
+print(sorted_list)
+#reverse the list
+#rem,ove every third item form the list 
+#summary of the list of functions
+#.append(item) - adds an item to the end of the list
+# .pop(index) - removes and retrurns the item at the specified index
+# .sort() - sorts the list in ascending order
+# .reverse() - reverses the order of the list
 # Practice Problems:
 
 # Create a list with 5 of your favorite foods.
