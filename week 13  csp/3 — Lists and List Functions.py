@@ -3,7 +3,24 @@
 
 # Topics Covered:
 # Creating lists, indexing, slicing, appending, popping, sorting, reversing.
-
+#list are ordered collections of items
+#list are mutable meaning you can change their content
+# list are created using square brackets []
+my_list = [1, 2, 3, 4, 5]
+print(my_list) # [1, 2, 3, 4, 5]
+print(type(my_list)) # <class 'list'>
+#insteaad of creating seperate variables
+# for each item, we can store them in a list
+#this makes our job easier
+#when we need to manage multiple related items
+#performance task maker
+print(my_list)
+print(type(my_list))
+print(my_list[0]) #access first item
+print(my_list[1:4]) #access second item
+print(my_list[0:]) # [1, 2, 3, 4, 5]
+my list.append(6) #add item to end of list
+print(my_list) # [1, 2, 3, 4, 5
 # Examples:
 
 my_list = ['apple', 'banana', 'cherry']
