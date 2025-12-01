@@ -12,3 +12,12 @@
 
 # Starter Code:
 
+
+
+weather = int(input("Enter temperature: "))
+if 70 <= weather <= 100:
+        print("so hot")
+elif 50 <= weather < 70:
+        print("warm")
+else:
+        print("cold")
