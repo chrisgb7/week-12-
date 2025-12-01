@@ -16,6 +16,6 @@ tuple1 = (1, 2, 3, 4, 5)
 print(tuple1)
 print(type(tuple1))
 #tuple are immutable meaning they connot be chnaged after creatiopn 
-#this makes tuples useful for storing data that shou;ld not be modified
+#this makes tuples useful for storing data that should not be modified
 social_security_number = (123444, 4444445, 5676789)
 print(social_security_number)
